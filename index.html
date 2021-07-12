@@ -8,6 +8,7 @@
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
 </head>
 
 <body class="index-page sidebar-collapse">
@@ -18,7 +19,7 @@
                 <div class="aoTableCell" id="content">
                     <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">IEEE EdSoc Kerala Chapter <br>Website Inaugurated
                     </h1>
-                    <h3 id="loading">Loading the website ...</h3>
+                    <p id="loading">Loading the website ...</p>
                     <audio id="audio" src="inaugurate.mp3"></audio>
             </section>
 
@@ -47,10 +48,10 @@
                 setTimeout(function() {
                     document.getElementById("loading").style.visibility = "visible";
                 }, 4000);
-                // setTimeout(function() {
-                //     window.open("https://r10.ieee.org/kerala-es", "_self");
-                // }, 9000);
-                //audio.play();
+                setTimeout(function() {
+                    window.open("https://r10.ieee.org/kerala-es", "_self");
+                }, 9000);
+                audio.play();
             };
         </script>
 </body>

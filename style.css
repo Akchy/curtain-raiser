@@ -107,7 +107,6 @@
 
 .aoTableCell {
     color: #172A53;
-    /*hsl(0, 80%, 38%);*/
     display: table-cell;
     vertical-align: middle;
     transition: color 3s ease;
@@ -115,23 +114,6 @@
 
 .rnOuter:hover .rnInner {
     cursor: pointer;
-}
-
-.button {
-    background-color: #E77724;
-    /* Green */
-    border: none;
-    color: white;
-    padding: 12px 30px;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-    display: none;
-    font-size: 18px;
-}
-
-.showButton {
-    display: inline-block;
 }
 
 .anim {
