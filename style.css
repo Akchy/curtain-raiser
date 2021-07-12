@@ -132,6 +132,10 @@
     background-position: bottom;
 }
 
+img {
+    border-radius: 50%;
+}
+
 #loading {
     visibility: hidden;
 }
