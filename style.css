@@ -1,5 +1,5 @@
 .rnOuter {
-    background: #172A53;
+    background: #121212;
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -24,9 +24,9 @@
 .rnUnit {
     width: 10vw;
     height: 120vh;
-    background: repeating-linear-gradient(to left, #172A53/*hsl(0, 80%, 38%);*/
-    4vw, #0e1a33/*hsl(0, 80%, 38%);*/
-    8vw, #203a72/*hsl(0, 80%, 38%);*/
+    background: repeating-linear-gradient(to left, #373737/*hsl(0, 80%, 38%);*/
+    4vw, #121212/*hsl(0, 80%, 38%);*/
+    8vw, #525252/*hsl(0, 80%, 38%);*/
     10vw);
     background-size: 100% 100%;
     display: inline-block;
@@ -38,7 +38,7 @@
 
 @-webkit-keyframes rnUnit {
     50% {
-        transform: rotate(-3deg);
+        transform: rotate(-30deg);
     }
 }
 
@@ -106,7 +106,7 @@
 }
 
 .aoTableCell {
-    color: #172A53;
+    color: #121212;
     display: table-cell;
     vertical-align: middle;
     transition: color 3s ease;
@@ -117,8 +117,8 @@
 }
 
 .anim {
-    transform-origin: -190% top;
-    transform: scaleX(1.5);
+    transform-origin: -150% top;
+    transform: scaleX(2);
 }
 
 .white {
@@ -126,7 +126,7 @@
 }
 
 .bgChange {
-    background: url('poper.gif') #172A53;
+    background: url('bg.gif') #121212;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -134,8 +134,4 @@
 
 img {
     border-radius: 50%;
-}
-
-#loading {
-    visibility: hidden;
 }
