@@ -1,5 +1,5 @@
 .rnOuter {
-    background: #121212;
+    background: #0072ae;
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -24,9 +24,9 @@
 .rnUnit {
     width: 10vw;
     height: 120vh;
-    background: repeating-linear-gradient(to left, #373737/*hsl(0, 80%, 38%);*/
-    4vw, #121212/*hsl(0, 80%, 38%);*/
-    8vw, #525252/*hsl(0, 80%, 38%);*/
+    background: repeating-linear-gradient(to left, #008ED8/*hsl(0, 80%, 38%);*/
+    4vw, #0072ae/*hsl(0, 80%, 38%);*/
+    8vw, #009FF1/*hsl(0, 80%, 38%);*/
     10vw);
     background-size: 100% 100%;
     display: inline-block;
@@ -106,7 +106,7 @@
 }
 
 .aoTableCell {
-    color: #121212;
+    color: #0072ae;
     display: table-cell;
     vertical-align: middle;
     transition: color 3s ease;
@@ -126,7 +126,7 @@
 }
 
 .bgChange {
-    background: url('bg.gif') #121212;
+    background: url('bg.gif') #0072ae;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
